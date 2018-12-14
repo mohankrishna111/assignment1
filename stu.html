@@ -8,21 +8,38 @@
       subj=new Array((Math.floor(Math.random()*100),(Math.floor(Math.random()*100),Math.floor(Math.random()*100));
       }
       stu1=new Student("ram");
+         stu1.subj();
       stu2=new Student("raghu");
+         stu2.subj();
       stu3=new Student("ravi");
+         stu3.subj();
       stu4=new Student("raki");
+         stu4.subj();
       stu5=new Student("redy");
-      
-      for(var i=0;i<5;i++)
+         stu5.subj();
+       for(var i=0;i<5;i++)
        {
         for(var j=0;j<3;j++)
          {
             sum=0;
             sum=sum+student[i.subj[j]];
             }
+            document.writeln(stu1[i].name+sum);
+            document.writeln(stu2[i].name+sum);
+            document.writeln(stu3[i].name+sum);
+            document.writeln(stu4[i].name+sum);
+            document.writeln(stu5[i].name+sum);
+          
          }
-         
-     </script>
+         avg=sum/3;
+     {
+        document.writeln(stu1 + avg);
+        document.writeln(stu2 + avg);
+        document.writeln(stu3 + avg);
+        document.writeln(stu4 + avg);
+        document.writeln(stu5 + avg);
+     }
+      </script>
     </head>
     <body>
      </body>
